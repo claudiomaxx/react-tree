@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  padding: 1rem;
+}
+
+.node-left {
+  float: left;
+  width: 50%;
+  /* border: solid 1px red; */
+}
+
+.node-center {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+  border: solid 1px #fff;
+}
+
+.node-right {
+  float: right;
+  width: 50%;
+}
+
+input {
+  width: 50%;
+  border: solid 1px #fff;
+  padding: 1rem;
+  background: darkgray;
+  color: #fff;
+}
+
+.input--left {
+  float: left;  
+}
+
+.input--right {
+  float: right;
+}
